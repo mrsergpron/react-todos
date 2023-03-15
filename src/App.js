@@ -62,7 +62,7 @@ function App() {
 
       {completedTodosCounter > 0 && (
         <h2>{`You have completed ${completedTodosCounter} ${
-          completedTodosCounter > 1 ? "todo" : "todos"
+          completedTodosCounter > 1 ? "todos" : "todo"
         }`}</h2>
       )}
     </div>
