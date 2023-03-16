@@ -39,7 +39,7 @@ function App() {
   };
 
   const completedTodosCounter = todos.filter(
-    (todo) => !todo.isCompleted
+    (todo) => todo.isCompleted === true
   ).length;
 
   return (
